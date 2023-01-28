@@ -195,6 +195,14 @@ body {
     color: #F9FAF8;
 }
 
+.footer {
+    display: flex;
+    justify-self: flex-end;
+    justify-content: center;
+    padding: 30px;
+    color: #F9FAF8;
+}
+
 ul {
     list-style-type: none;
     padding: 0px;
