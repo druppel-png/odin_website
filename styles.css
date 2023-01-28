@@ -61,7 +61,7 @@ body {
 
 .intro .content {
     display: flex;
-    gap: 40px;
+    justify-content: space-evenly;
 }
 
 .intro .left {
@@ -69,7 +69,7 @@ body {
 }
 
 .intro .right {
-    flex: 0 1 520px;
+    flex: 0 1 500px;
     display: flex;
     background-color: #6D747D;
     justify-content: center;
@@ -122,6 +122,35 @@ body {
     font-size: 18px;
     max-width: 160px;
 }
+
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+}
+
+.quote .container {
+    flex: 0 1 auto;
+    display: flex;
+    max-width: 790px;
+    flex-direction: column;
+    padding: 80px;
+    color: #1F2937;
+}
+
+.quote .content {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote .person {
+    align-self: flex-end;
+    font-weight: 900;
+    font-size: 25px;
+}
+
 ul {
     list-style-type: none;
     padding: 0px;
